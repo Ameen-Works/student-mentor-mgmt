@@ -7,7 +7,7 @@ const MentorRoutes = require("./Routes/MentorRoutes");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 
-dotenv.config();
+// dotenv.config();
 
 const dbURL = process.env.DB_URL;
 
