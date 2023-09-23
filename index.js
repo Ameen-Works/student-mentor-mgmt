@@ -1,6 +1,5 @@
-// import { Express } from "express";
 const express = require("express");
-// import express from "express";
+
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const StudentRoutes = require("./Routes/StudentRoutes");
@@ -27,7 +26,6 @@ try {
 }
 
 const app = express();
-// app.use(Express.json());
 
 app.use(bodyParser.json());
 app.use(cors());
